@@ -1,102 +1,92 @@
 [
-    {
-      "tour_id": "T001",
-      "name": "Explore Vietnam",
-      "description": "A comprehensive 10-day tour across Vietnam, from the bustling cities to scenic beaches.",
-      "image_url": "https://example.com/images/vietnam.jpg",
-      "destinations": [
-        {
-          "name": "Hanoi",
-          "description": "The vibrant capital city of Vietnam, known for its history and culture.",
-          "duration": 2
-        },
-        {
-          "name": "Ha Long Bay",
-          "description": "A UNESCO World Heritage site, famous for its emerald waters and limestone islands.",
-          "duration": 1
-        },
-        {
-          "name": "Hue",
-          "description": "Ancient capital with historic architecture and the Perfume River.",
-          "duration": 2
-        },
-        {
-          "name": "Da Nang",
-          "description": "A coastal city with beautiful beaches and Marble Mountains.",
-          "duration": 1
-        },
-        {
-          "name": "Ho Chi Minh City",
-          "description": "Vietnam's bustling economic hub with a blend of modern and traditional influences.",
-          "duration": 3
-        }
-      ]
-    },
-    {
-      "tour_id": "T002",
-      "name": "European Highlights",
-      "description": "An unforgettable 12-day tour of Europe's most iconic destinations.",
-      "image_url": "https://example.com/images/europe.jpg",
-      "destinations": [
-        {
-          "name": "Paris",
-          "description": "The city of lights, known for the Eiffel Tower and rich art and culture.",
-          "duration": 3
-        },
-        {
-          "name": "Rome",
-          "description": "Historic city with ancient ruins, including the Colosseum.",
-          "duration": 2
-        },
-        {
-          "name": "Venice",
-          "description": "Romantic canals and beautiful architecture.",
-          "duration": 1
-        },
-        {
-          "name": "Vienna",
-          "description": "Austria's capital, known for its classical music and Baroque architecture.",
-          "duration": 2
-        },
-        {
-          "name": "Amsterdam",
-          "description": "Famous for its canals, tulip fields, and vibrant art scene.",
-          "duration": 1
-        },
-        {
-          "name": "Berlin",
-          "description": "Germany's capital, known for its history, museums, and modern attractions.",
-          "duration": 2
-        }
-      ]
-    },
-    {
-      "tour_id": "T003",
-      "name": "Safari Adventure in Kenya",
-      "description": "A 7-day safari tour exploring the wilderness of Kenya.",
-      "image_url": "https://example.com/images/kenya.jpg",
-      "destinations": [
-        {
-          "name": "Nairobi",
-          "description": "Kenya's capital, gateway to the safari experience.",
-          "duration": 1
-        },
-        {
-          "name": "Masai Mara",
-          "description": "World-renowned national reserve famous for wildlife, including lions, elephants, and zebras.",
-          "duration": 3
-        },
-        {
-          "name": "Lake Nakuru",
-          "description": "Known for its flamingos and rhino sanctuary.",
-          "duration": 2
-        },
-        {
-          "name": "Amboseli National Park",
-          "description": "Scenic views of Mount Kilimanjaro and a variety of wildlife.",
-          "duration": 1
-        }
-      ]
-    }
-  ]
-  
+  {
+    "title": "Da Nang - Ba Na - Hoi An",
+    "subTitle": "Jan 30, 2020",
+    "price": "$400.00",
+    "image": "assets/images/Da Nang - Ba Na - Hoi An.png",
+    "imageHeight": 135,
+    "imageWidth": "infinity",
+    "isWide": true
+  },
+  {
+    "title": "Melbourne - Sydney",
+    "subTitle": "Jan 30, 2020",
+    "price": "$600.00",
+    "image": "assets/images/Melbourne - Sydney.png",
+    "imageHeight": 135,
+    "imageWidth": "infinity",
+    "isWide": true
+  },
+  {
+    "title": "Hanoi - Ha Long Bay",
+    "subTitle": "Jan 30, 2020",
+    "price": "$300.00",
+    "image": "assets/images/Hanoi - Ha Long Bay.png",
+    "imageHeight": 135,
+    "imageWidth": "infinity",
+    "isWide": true
+  },
+  {
+    "title": "Phu Quoc - Vinpearl Safari",
+    "subTitle": "Feb 15, 2020",
+    "price": "$350.00",
+    "image": "assets/images/Phu Quoc - Vinpearl Safari.png",
+    "imageHeight": 135,
+    "imageWidth": "infinity",
+    "isWide": true
+  },
+  {
+    "title": "Saigon - Mekong Delta",
+    "subTitle": "Feb 20, 2020",
+    "price": "$500.00",
+    "image": "assets/images/Saigon - Mekong Delta.png",
+    "imageHeight": 135,
+    "imageWidth": "infinity",
+    "isWide": true
+  },
+  {
+    "title": "Hue - Imperial City",
+    "subTitle": "Mar 05, 2020",
+    "price": "$450.00",
+    "image": "assets/images/Hue - Imperial City.png",
+    "imageHeight": 135,
+    "imageWidth": "infinity",
+    "isWide": true
+  },
+  {
+    "title": "Sapa - Fansipan Mountain",
+    "subTitle": "Mar 10, 2020",
+    "price": "$550.00",
+    "image": "assets/images/Sapa - Fansipan Mountain.png",
+    "imageHeight": 135,
+    "imageWidth": "infinity",
+    "isWide": true
+  },
+  {
+    "title": "Hoi An - Ancient Town",
+    "subTitle": "Mar 15, 2020",
+    "price": "$200.00",
+    "image": "assets/images/Hoi An - Ancient Town.png",
+    "imageHeight": 135,
+    "imageWidth": "infinity",
+    "isWide": true
+  },
+  {
+    "title": "Nha Trang - Vinpearl Land",
+    "subTitle": "Mar 20, 2020",
+    "price": "$400.00",
+    "image": "assets/images/Nha Trang - Vinpearl Land.png",
+    "imageHeight": 135,
+    "imageWidth": "infinity",
+    "isWide": true
+  },
+  {
+    "title": "Da Lat - Flower Festival",
+    "subTitle": "Mar 25, 2020",
+    "price": "$300.00",
+    "image": "assets/images/Da Lat - Flower Festival.png",
+    "imageHeight": 135,
+    "imageWidth": "infinity",
+    "isWide": true
+  }
+]

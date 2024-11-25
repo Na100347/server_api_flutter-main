@@ -1,9 +1,12 @@
+// server.js
 require("dotenv").config();
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
-const Tour = require("./model/TourModel"); // Replace with your new Tour model
-
+const tourRoutes = require('./routes/tourRoutes'); // Import the routes
+const topRoutes = require('./routes/topRoutes');
+const bestRoutes = require('./routes/bestRoutes');
+const top2Routes = require('./routes/top2Routes');
 const app = express();
 
 // Enable CORS for all origins
@@ -22,17 +25,11 @@ mongoose
   .then(() => console.log("Successfully connected to MongoDB"))
   .catch((err) => console.error("MongoDB connection error:", err));
 
-// Create API endpoint GET /api/tours
-app.get("/api/tours", async (req, res) => {
-  try {
-    const tours = await Tour.find();
-    res.status(200).json(tours); // Returns JSON with a list of tours
-  } catch (error) {
-    console.error("Error fetching data:", error);
-    res.status(500).json({ error: error.message });
-  }
-});
-
+// Use the routes for handling requests
+app.use('/api', tourRoutes); // Prefix all tour routes with /api
+app.use('/api', topRoutes); // Prefix all tour routes with /api
+app.use('/api', bestRoutes);
+app.use('/api', top2Routes);
 // Start server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
